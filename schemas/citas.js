@@ -1,4 +1,4 @@
-const z = require('zod')
+import z from 'zod'
 
 const citaSchema = z.object({
   firstName: z.string({
@@ -21,15 +21,10 @@ const citaSchema = z.object({
   time: z.string()
 })
 
-function validateCita (object) {
+export function validateCita (object) {
   return citaSchema.safeParse(object)
 }
 
-function validatePartialCita (object) {
+export function validatePartialCita (object) {
   return citaSchema.partial().safeParse(object)
-}
-
-module.exports = {
-  validateCita,
-  validatePartialCita
 }
