@@ -1,0 +1,32 @@
+### Recuperar todas las citas
+GET http://localhost:1234/citas
+
+### Recuperar una cita
+GET http://localhost:1234/citas/8a6145c9-d772-4532-b3c0-38bb42867668
+
+### Recuperar todas las citas por fecha
+GET http://localhost:1234/citas?date=Saturday
+
+### Crear una cita
+POST http://localhost:1234/citas
+Content-Type: application/json
+
+{   
+    "firstName": "Mason",
+    "lastName": "Zenhom",
+    "tel": 643038804,
+    "address": "Plaza La Union",
+    "building": "8",
+    "floor": "Piso Bajo A",
+    "city": "Vitoria-Gasteiz",
+    "date": "date",
+    "time": "time"
+}
+
+### Actualizar una cita
+PATCH http://localhost:1234/citas/8a6145c9-d772-4532-b3c0-38bb42867668
+Content-Type: application/json
+
+{   
+    "tel": 641995548
+}

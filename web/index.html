@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probar API Rest</title>
+    <style>
+        *{  
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            text-align: end;
+        }
+        article{
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .nombreApellido{
+            display: flex;
+            align-items: center; gap: 15px;
+        }
+        .direccion{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        label{
+            font-size: 13px;
+            color: gray;
+        }
+    </style>
+    <script type="module">
+        fetch('http://localhost:1234/citas')
+            .then(res => res.json()).then(citas => {
+                const html = citas.map(cita =>{
+                    return `
+                        <article data-id="${cita.id}">
+                            <div class="nombreApellido">
+                                <label>Nombre:</label>
+                                    <span>${cita.firstName}</span>
+                                <label>Apellido:</label>
+                                    <span>${cita.lastName}</span>
+                            </div>
+                            <div class="direccion">
+                                <label>Direccion:</label>
+                                    <span>${cita.address}, ${cita.building} ${cita.floor} - ${cita.city}</span>
+                                <label>Tel:</label>
+                                    <span>${cita.tel}</span>
+                            </div>
+                            <div>
+                                dia preferible de visita ${cita.date[0]}
+                            </div>
+                            <button>COMPLETADA</button>
+                        </article>
+                        `
+                }).join('')
+
+                document.querySelector('main').innerHTML = html
+
+                document.addEventListener('click', e =>{
+                    if(e.target.matches('button')) {
+                        const article = e.target.closest('article')
+                        const id = article.dataset.id
+
+                        fetch(`http://localhost:1234/citas/${id}`, {
+                            method: 'DELETE'
+                        }).then(res=>{
+                            if(res.ok){
+                                article.remove( )
+                            }
+                        })
+                    }
+                })
+            })
+    </script>
+</head>
+<body>
+    <main></main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+[
+  {
+    "address": "Plaza La Union",
+    "building": "8",
+    "city": "Vitoria-Gasteiz",
+    "date": [
+      "SATURDAY",
+      "monday"
+    ],
+    "firstName": "Brian",
+    "floor": "Piso Bajo A",
+    "id": "8a6145c9-d772-4532-b3c0-38bb42867668",
+    "lastName": "Zenhom",
+    "tel": 641995548,
+    "time": "14:30"
+  },
+  {
+    "address": "Plaza La Union",
+    "building": "8",
+    "city": "Vitoria-Gasteiz",
+    "date": [
+      "SATURDAY",
+      "monday"
+    ],
+    "firstName": "Angie",
+    "floor": "Piso Bajo A",
+    "id": "d5dce543-5c54-4c22-8390-703943c6c813",
+    "lastName": "Geraldine",
+    "tel": 643038804,
+    "time": "14:30"
+  },
+  {
+    "address": "Plaza La Union",
+    "building": "8",
+    "city": "Vitoria-Gasteiz",
+    "date": [
+      "thursday",
+      "monday"
+    ],
+    "firstName": "Angie",
+    "floor": "Piso Bajo A",
+    "id": "d5dce543-5c54-4c22-8390-703943c6c813",
+    "lastName": "Geraldine",
+    "tel": 643038804,
+    "time": "14:30"
+  }
+]
