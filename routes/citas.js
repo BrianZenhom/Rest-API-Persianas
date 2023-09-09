@@ -1,9 +1,9 @@
 import { randomUUID } from 'node:crypto'
 import { Router } from 'express'
 
-import { validateCita, validatePartialCita } from '../schemas/citas'
+import { validateCita, validatePartialCita } from './../schemas/citas.js'
 
-import { readJSON } from './utils.js'
+import { readJSON } from './../utils.js'
 
 const citas = readJSON('./citas.json')
 export const citasRouter = Router()
