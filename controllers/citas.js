@@ -1,4 +1,4 @@
-import { CitaModel } from '../models/cita'
+import { CitaModel } from '../models/cita.js'
 
 import { validateCita, validatePartialCita } from './../schemas/citas.js'
 

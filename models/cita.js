@@ -1,7 +1,7 @@
 import { randomUUID } from 'node:crypto'
 import { readJSON } from '../utils.js'
 
-const citas = readJSON('../citas.json')
+const citas = readJSON('./citas.json')
 
 export class CitaModel {
   static async getAll ({ date }) {

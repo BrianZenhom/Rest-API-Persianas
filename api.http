@@ -23,8 +23,11 @@ Content-Type: application/json
     "time": "time"
 }
 
+### Borrar una cita
+DELETE http://localhost:1234/citas/8a6145c9-d772-4532-b3c0-38bb42867668
+
 ### Actualizar una cita
-PATCH http://localhost:1234/citas/8a6145c9-d772-4532-b3c0-38bb42867668
+PATCH http://localhost:1234/citas/d5dce543-5c54-4c22-8390-703943c6c813
 Content-Type: application/json
 
 {   
