@@ -7,6 +7,7 @@
       "SATURDAY"
     ],
     "email": "brianzenhom@hotmail.com",
+    "estado": "pendiente",
     "firstName": "Brian",
     "floor": "Piso Bajo A",
     "id": "8a6145c9-d772-4532-b3c0-38bb42867668",
@@ -22,6 +23,7 @@
       "SUNDAY"
     ],
     "email": "angiegeraldine@hotmail.com",
+    "estado": "pendiente",
     "firstName": "Angie",
     "floor": "A-8",
     "id": "6d577ebb-1a56-44a1-9cc7-2e2bec4d2c5a",
@@ -37,6 +39,7 @@
       "THURSDAY"
     ],
     "email": "albertofer@hotmail.com",
+    "estado": "completado",
     "firstName": "Alberto",
     "floor": "2DO B",
     "id": "d5dce543-5c54-4c22-8390-703943c6c813",
@@ -52,6 +55,7 @@
       "MONDAY"
     ],
     "email": "mazonzenhom@hotmail.com",
+    "estado": "pendiente",
     "firstName": "Mason",
     "floor": "3RO B",
     "id": "62eefa08-374e-40b7-9148-ed4c63765c45",
@@ -67,6 +71,7 @@
       "WEDNESDAY"
     ],
     "email": "nicolas@hotmail.com",
+    "estado": "completado",
     "firstName": "Nicolas",
     "floor": "2DO A",
     "id": "609c46f0-4821-402c-887e-46db2d83023d",
@@ -82,6 +87,7 @@
       "WEDNESDAY"
     ],
     "email": "brifer@hotmail.com",
+    "estado": "completado",
     "firstName": "Bri",
     "floor": "5TO C",
     "id": "ed82aeff-be75-4b40-a46b-dee009bd270e",
