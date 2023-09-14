@@ -19,7 +19,7 @@
   "main": "app.js",
   "name": "rest-api-persianas",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
