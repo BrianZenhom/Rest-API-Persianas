@@ -1,11 +1,10 @@
 [
   {
+    "activity": "inactive",
     "address": "Plaza La Union",
     "building": "8",
     "city": "Vitoria-Gasteiz",
-    "date": [
-      "SATURDAY"
-    ],
+    "date": ["SATURDAY"],
     "email": "brianzenhom@hotmail.com",
     "estado": "pendiente",
     "firstName": "Brian",
@@ -16,12 +15,11 @@
     "time": "7 - 11"
   },
   {
+    "activity": "inactive",
     "address": "Vizcaya",
     "building": "315",
     "city": "Pichincha",
-    "date": [
-      "SUNDAY"
-    ],
+    "date": ["SUNDAY"],
     "email": "angiegeraldine@hotmail.com",
     "estado": "pendiente",
     "firstName": "Angie",
@@ -32,12 +30,11 @@
     "time": "7 - 11"
   },
   {
+    "activity": "active",
     "address": "Juan De la Rae",
     "building": "3",
     "city": "Barcelona",
-    "date": [
-      "THURSDAY"
-    ],
+    "date": ["THURSDAY"],
     "email": "albertofer@hotmail.com",
     "estado": "completado",
     "firstName": "Alberto",
@@ -48,12 +45,11 @@
     "time": "16 - 20"
   },
   {
+    "activity": "active",
     "address": "9 de julio",
     "building": "34",
     "city": "Madrid",
-    "date": [
-      "MONDAY"
-    ],
+    "date": ["MONDAY"],
     "email": "mazonzenhom@hotmail.com",
     "estado": "pendiente",
     "firstName": "Mason",
@@ -64,12 +60,11 @@
     "time": "9 - 14"
   },
   {
+    "activity": "inactive",
     "address": "Maria de rosa",
     "building": "15",
     "city": "Valencia",
-    "date": [
-      "WEDNESDAY"
-    ],
+    "date": ["WEDNESDAY"],
     "email": "nicolas@hotmail.com",
     "estado": "completado",
     "firstName": "Nicolas",
@@ -80,12 +75,11 @@
     "time": "9 - 14"
   },
   {
+    "activity": "active",
     "address": "Plaza primera",
     "building": "56",
     "city": "Valencia",
-    "date": [
-      "WEDNESDAY"
-    ],
+    "date": ["WEDNESDAY"],
     "email": "brifer@hotmail.com",
     "estado": "completado",
     "firstName": "Bri",
